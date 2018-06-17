@@ -18,4 +18,15 @@ Todo list:
 ✔ link label for attribute to input id attribute @done (2018-6-17 23:38:15)
 ✔ create a reset input radio followed by a box-message and box-header wich contains a box info and a box-close label @done (2018-6-17 23:38:16)
 
-#Landing page (part 3)
+#Landing page (part 3) - style landing page
+- display flex
+-100% height trick
+- text transformation
+
+✔ make the landing-page full height @done (2018-6-18 00:12:04)
+✔ html and body full height and font size @done (2018-6-18 00:12:05)
+✔ .landing-page__wrapper center content @done (2018-6-18 00:13:30)
+✔ .landing-page__name font size and UPPERCase letters @done (2018-6-18 00:15:42)
+✔ .landing-page__title font size and Capitalize words @done (2018-6-18 00:16:52)
+✔ .landing-page__social horizontal align children and move away from name and title @done (2018-6-18 00:18:57)
+✔ .landing-page__label font size color and space out @done (2018-6-18 00:31:09)
