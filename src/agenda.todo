@@ -1,8 +1,8 @@
 Todo list:
 # Landing page (part 1)
 ✔ clean _partial from previous lesson @done (2018-6-17 00:35:08)
-☐ use icomoon.io to generate custom font
-☐ download font files and font source into _asset/font (commit)
+✔ use icomoon.io to generate custom font @done (2018-6-17 01:02:11)
+✔ download font files and font source into _asset/font (commit) @done (2018-6-17 01:02:15)
 ☐ create layout/page
 ☐ add border-box and fluid typography
 ☐ add reset css
