@@ -9,4 +9,13 @@ Todo list:
 ✔ import font files (commit) @done (2018-6-17 02:39:55)
 ✔ create full name variable and implement ino structure @done (2018-6-17 02:40:00)
 ✔ create title variable and implement into structure @done (2018-6-17 02:40:01)
-☐ create social list variable composed of objects witch "icon" and "url" keys and implement into structure (twitter, facebook, youtube, github, etc) (commit)
+✔ create social list variable composed of objects witch "icon" and "url" keys and implement into structure (twitter, facebook, youtube, github, etc) (commit) @done (2018-6-17 22:47:30)
+
+#Landing page (part 2) - Finish HTML structure and start basic styling
+✔ create landing page labels into social > social item > social label @done (2018-6-17 23:12:54)
+✔ create input box-radio list next to box-message which contains a box-link @done (2018-6-17 23:12:56)
+✔ group input type radio @done (2018-6-17 23:16:53)
+✔ link label for attribute to input id attribute @done (2018-6-17 23:38:15)
+✔ create a reset input radio followed by a box-message and box-header wich contains a box info and a box-close label @done (2018-6-17 23:38:16)
+
+#Landing page (part 3)
