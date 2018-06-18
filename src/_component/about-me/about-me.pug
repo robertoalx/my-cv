@@ -1,0 +1,42 @@
+//- data comes here
+-
+    var header = '#about me'
+    var imagePath = "asset/image/my-photo.jpg"
+    var myFullName = "Robert Alexandru"
+    var myTitle = "Pc Trainer"
+    var slogan = `I make the junior world a better place`
+    var achievements = {
+        title: 'achievement',
+        content: 'I upgrade myself every day, to be better, to be creative, to be on top',
+    }
+
+    var coolStuff = {
+        title: 'grab cool stuff',
+        buttonList: [
+            {
+              url: 'https://github.com/robertoalx/my-cv',
+              icon: 'github',
+              label: 'Click to visit the Github project source',
+            }
+        ]
+    }
+//- the view comes here
+#about-me
+.about-me
+    .about-me__header=header
+    .about-me__avatar-wrapper
+        img.about-me__avatar(src=imagePath)
+    .about-me__full-name=myFullName
+    .about-me__full-title=myTitle
+    .about-me__slogan=slogan
+
+    .about-me__title=achievements.title
+    .about-me__content=achievements.content
+
+    .about-me__title=coolStuff.title
+    .about-me__link-list
+        each button in coolStuff.buttonList
+            a(href=button.url)
+                span=button.label
+                span(class=`.my-cv__icon--${button.icon}`)
+

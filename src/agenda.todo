@@ -44,3 +44,31 @@ Todo list:
 ✔ make the .landing-page__box-info take all available width and round its the bottom left corner @done (2018-6-18 02:12:06)
 ✔ set the color of .landing-page__box-link and .landing-page__box-message to white @done (2018-6-18 02:13:29)
 ✔ style .landing-page__box-link @done (2018-6-18 02:15:57)
+
+
+#About me (part 1)
+✔ create the pug and sass files @done (2018-6-18 02:30:44)
+✔ make them work in the project @done (2018-6-18 02:30:57)
+✔ prepare CV files and image for avatar @done (2018-6-18 15:48:55)
+✔ create the following variables: @done (2018-6-18 15:48:57)
+    header
+    imagePath
+    myFullName
+    myTitle
+    slogan
+    achievement {
+        title
+        content
+    }
+    coolstuff {
+      title,
+      linkList: [
+        {url, icon, text}
+      ]
+    }
+✔ print the coolStuff title and change it to "grab cool stuff" @done (2018-6-18 16:20:11)
+✔ wrap the buttons in a .about-me__link-list div @done (2018-6-18 16:23:21)
+☐ stage all and commit with "create the structure of the about me section"
+
+#style the about me section
+☐ style the .about-me with a radial gradient of ellipse type using #fb9e91 and
