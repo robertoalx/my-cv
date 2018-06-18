@@ -30,3 +30,17 @@ Todo list:
 ✔ .landing-page__title font size and Capitalize words @done (2018-6-18 00:16:52)
 ✔ .landing-page__social horizontal align children and move away from name and title @done (2018-6-18 00:18:57)
 ✔ .landing-page__label font size color and space out @done (2018-6-18 00:31:09)
+
+# Landing page (part 4) - reveal link
+- input:checked (pseudo class)
+- div + div (sibling selector)
+
+✔ test the slibing selector on .landing-page__box-message to .landing-page__box-radio: checked @done (2018-6-18 01:14:12)
+✔ hide .landing-page__box- radio and .landing-page__box-message and show only the one next to the checked input @done (2018-6-18 01:15:43)
+✔ hide .landing-page__box-header (Click to visit) when any input that reveals a link is not checked @done (2018-6-18 01:17:14)
+✔ style .landing-page__box-body with a white rounded border, space out content and make it position relative to prepare for positioning of .landing-page__box-header and clear the red border @done (2018-6-18 01:20:33)
+✔ position the .landing-page__box-header under the .landing-page__box-bollipsis @done (2018-6-18 02:05:09)
+✔ style .landing-page__box-info and .landing-page__box-close text and add a white backgrounddy and align the two elements inside to stick to the left and right edges.If the info text content is longer then the container show triple dots or ellipsis @done (2018-6-18 02:08:12)
+✔ make the .landing-page__box-info take all available width and round its the bottom left corner @done (2018-6-18 02:12:06)
+✔ set the color of .landing-page__box-link and .landing-page__box-message to white @done (2018-6-18 02:13:29)
+✔ style .landing-page__box-link @done (2018-6-18 02:15:57)
