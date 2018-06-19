@@ -68,7 +68,11 @@ Todo list:
     }
 ✔ print the coolStuff title and change it to "grab cool stuff" @done (2018-6-18 16:20:11)
 ✔ wrap the buttons in a .about-me__link-list div @done (2018-6-18 16:23:21)
-☐ stage all and commit with "create the structure of the about me section"
+✔ stage all and commit with "create the structure of the about me section" @done (2018-6-18 16:40:05)
 
 #style the about me section
-☐ style the .about-me with a radial gradient of ellipse type using #fb9e91 and
+✔ style the .about-me with a radial gradient of ellipse type using #fb9e91 and #e97568 @done (2018-6-18 22:59:49)
+
+✔ make the .about-me__header of white colorand adjust paddin, font size and maring bottom @done (2018-6-18 23:05:48)
+
+☐ make .about-me__avatar round, like a circle, se the width to 100% and border color to #e57568
