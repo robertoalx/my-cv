@@ -75,4 +75,42 @@ Todo list:
 
 ✔ make the .about-me__header of white colorand adjust paddin, font size and maring bottom @done (2018-6-18 23:05:48)
 
-☐ make .about-me__avatar round, like a circle, se the width to 100% and border color to #e57568
+✔ make .about-me__avatar round, like a circle, se the width to 100% and border color to #e57568 @done (2018-6-19 00:36:07)
+
+✔ adjust the width of .about-me__avatar-wrapper as 100% doesn't look nice and set the border to white with transparency @done (2018-6-19 00:44:18)
+
+✔ use ::after to add one more border and position it outside by 1.5rem @done (2018-6-19 00:59:18)
+
+✔ style the .about-me__full-name and .about-me__title on the center, increase font size, adjust padding and set color to white @done (2018-6-19 12:07:06)
+
+✔ set the align to justify for the .about-me__slogan, adjust the padding, line height, font-size and text indent @done (2018-6-19 12:12:32)
+
+✔ align the button links in .about-me__links-list to center @done (2018-6-19 12:26:46)
+
+✔ fix the icon issue @done (2018-6-19 12:26:47)
+
+✔ set the color of the border of the link button to #d1adc2, color to #7ea1a6, background to white and align the span tags using display flex. Increase the font size and make the corners rounded. Remove the underling of the anchor tag @done (2018-6-19 13:03:01)
+
+✔ set the .about-me__link description alignment to center, font size to 1.5rem and the line height to 1.5 @done (2018-6-19 13:23:29)
+
+✔ stage all and comit with "style the about me section" @done (2018-6-19 13:57:30)
+
+# start the award section and refactor it
+
+✔ create the pug  scss files and link the to the project @done (2018-6-19 14:04:09)
+✔ create the .award__header and style it with a color of #b2c7e2 @done (2018-6-19 14:07:24)
+✔ refactor the header CSS into reusable composed @done (2018-6-19 14:15:36)
+✔ refactor colors into a config and use nice variable name for colors @done (2018-6-19 23:18:39)
+✔ commit the changes with the message "refactor the colors and header section" @done (2018-6-19 23:38:53)
+
+#update the award section structure
+✔ create the variables title, description, location and date @done (2018-6-20 13:26:47)
+✔ convert them to properties of an objects @done (2018-6-20 13:26:49)
+✔ create another object with different value for the properties @done (2018-6-20 13:26:52)
+✔ add the objects into an array @done (2018-6-20 13:26:55)
+✔ loop the list and map the properties to icons: @done (2018-6-20 13:36:50)
+    ☐ trophy to tittle
+    ☐ info to description
+    ☐ map2 to location
+    ☐ calendar to date
+    ☐ commit the latest changes with the message "update the structure of award section"
