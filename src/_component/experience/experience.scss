@@ -1,0 +1,7 @@
+.experience__details {
+    display:none;
+}
+
+.experience__input:checked + .experience__title + .experience__details {
+    display: inherit;
+}

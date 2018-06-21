@@ -1,0 +1,44 @@
+//- model, data
+-
+    var header = '#experience'
+    var experienceList = [
+      {
+          title: 'Pc Trainer',
+          date: '2099 Jan-present',
+          company: 'Man In Black',
+          responsabilityList: [
+              'We had to kill the aliens',
+              'We need to keep safe the living people',
+              'We need to make happy our Boss',
+          ]
+      },
+      {
+          title: 'PowerPuffBoys',
+          date: '1990 Feb-present',
+          company: 'Kitty',
+          responsabilityList: [
+              'We maintain the peace in the world',
+              'We fight the bad boys',
+              'We are hard workers and we serve our country!',
+          ]
+      }
+    ]
+//- view, presentation
+//- CSS "+" :checked
+    input
+    controlled container (div, or whatever)
+#experience
+.experience
+    .experience__header=header
+        input(type="radio", name="same-name", id="experience-default")
+        label(for="experience-default") &times;
+    each experience, key in experienceList
+        input.experience__input(type="radio", name="same-name", id=`experience-id-${key}`)
+        label.experience__title(for=`experience-id-${key}`)=experience.title
+        .experience__details
+            .experience__top
+                .experience__date=experience.date
+                .experience__company=experience.company
+            .experience__list
+                each responsability in experience.responsabilityList
+                    .experience__responsability=responsability
