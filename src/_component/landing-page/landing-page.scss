@@ -105,3 +105,9 @@
   max-width: 80vmin;
   display: block
 }
+
+html[dir="rtl"] {
+  .landing-page__box-info {
+    order: 1;
+  }
+}
