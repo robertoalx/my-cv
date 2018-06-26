@@ -15,7 +15,7 @@
 .experience__title {
     background-color: $color-gumbo;
     color: $color-white;
-    display: flex;
+    display: block;
     justify-content: space-between;
     font-size: 2rem;
     padding: 2rem;
@@ -60,12 +60,12 @@
 }
 
 .my-cv__icon--plus {
-    // float: right;
+    float: right;
     pointer-events: none;
 }
 
 .experience__input:checked + .experience__title {
-    .my-cv__icon--plus {
+    .my-cv__icon--plus  {
         transform: rotateZ(45deg);
         pointer-events: all;
         cursor: pointer;
