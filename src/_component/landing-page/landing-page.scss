@@ -11,14 +11,16 @@
 }
 
 .landing-page__name {
-  padding-bottom: 1rem;
+  padding-bottom: 0.2rem;
   font-size: 5rem;
   text-transform: uppercase;
+  color: $color-cyan-aqua;
 }
 
 .landing-page__title {
   font-size: 2.8rem;
   text-transform: capitalize;
+  color: orange;
 }
 
 .landing-page__social {

@@ -1,8 +1,8 @@
 .about-me {
     background-image: radial-gradient(
       ellipse,
-      $color-geraldine,
-      $color-terracotta
+      $color-cyan-aqua,
+      $color-blue-ribbon
     );
 }
 
@@ -14,13 +14,13 @@
 .about-me__avatar {
     border-radius: 50%;
     width: 100%;
-    border: 0.5rem solid $color-terracotta;
+    border: 0.5rem solid $color-blue-ribbon;
 }
 
 .about-me__avatar-wrapper {
     border-radius: 50%;
     width: 100%;
-    border: 0.5rem solid $color-terracotta
+    border: 0.5rem solid $color-blue-ribbon
 }
 
 .about-me__avatar-wrapper {
