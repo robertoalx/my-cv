@@ -1,8 +1,8 @@
 .about-me {
     background-image: radial-gradient(
       ellipse,
-      $color-cyan-aqua,
-      $color-blue-ribbon
+      $color-royal-blue,
+      $color-downriver
     );
 }
 
@@ -14,13 +14,13 @@
 .about-me__avatar {
     border-radius: 50%;
     width: 100%;
-    border: 0.5rem solid $color-blue-ribbon;
+    border: 0.5rem solid $color-downriver;
 }
 
 .about-me__avatar-wrapper {
     border-radius: 50%;
     width: 100%;
-    border: 0.5rem solid $color-blue-ribbon
+    border: 0.5rem solid $color-royal-blue
 }
 
 .about-me__avatar-wrapper {
@@ -56,6 +56,7 @@
     color: $color-white;
     padding: 0 1rem 2rem;
     text-align: center;
+    color: $color-yellow-sea;
 }
 
 .about-me__slogan,
@@ -64,7 +65,7 @@
     text-align: justify;
     padding: 1rem;
     text-indent: 3rem;
-    color: rgb(3, 250, 3);
+    color: $color-sunglow;
 }
 
 .about-me__link-list {
@@ -86,6 +87,7 @@
     justify-content: space-around;
     align-items: center;
     padding: 1rem;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
 
 .about-me__link-description {
