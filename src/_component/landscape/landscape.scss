@@ -48,6 +48,10 @@
     }
 
     
+    .landscape__message--hide {
+        display: block;
+    }
+    
     #landscape:checked + .landscape {
         top: -100%;
     
